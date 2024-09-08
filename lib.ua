@@ -1,15 +1,7 @@
-~ "conversions.ua"
+~ "./conversions.ua"
+    ~ LinearToOklab
+    ~ LinearToSrgb
     ~ OklabToLinear
+    ~ OklabToSrgb
     ~ SrgbToLinear
-
-# Track caller!
-LinearToSrgb ← °SrgbToLinear
-
-# Track caller!
-LinearToOklab ← °OklabToLinear
-
-# Track caller!
-OklabToSrgb ← LinearToSrgb OklabToLinear
-
-# Track caller!
-SrgbToOklab ← °OklabToSrgb
+    ~ SrgbToOklab
