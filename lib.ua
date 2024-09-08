@@ -1,6 +1,6 @@
 ~ "conversions.ua"
-~ SrgbToLinear
-~ OklabToLinear
+    ~ OklabToLinear
+    ~ SrgbToLinear
 
 # Track caller!
 LinearToSrgb ← °SrgbToLinear
