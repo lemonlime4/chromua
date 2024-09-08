@@ -1,4 +1,4 @@
-~ "./base_conversions.ua"
+~ "base_conversions.ua"
     ~ OklabToLinear
     ~ SrgbToLinear
 
