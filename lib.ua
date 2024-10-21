@@ -8,7 +8,7 @@ AssertColorShape ↚ ⨬◌(
 )⊃(≠3⧻)△ ⟜AssertColorType
 
 # Track caller!
-SrgbToLinear ← setinv(
+SrgbToLinear ← ⌅(
     ⟜AssertColorType
     ⍜-× ⊃(÷12.92|ⁿ2.4÷1.055+0.055) ⟜(≥0.04045)
 | ⟜AssertColorType
@@ -16,7 +16,7 @@ SrgbToLinear ← setinv(
 )
 
 # Track caller!
-OklabToLinear ← setinv(
+OklabToLinear ← ⌅(
     ⟜AssertColorShape
     [1_0.3963377774_0.2158037573
      1_¯0.1055613458_¯0.0638541728
