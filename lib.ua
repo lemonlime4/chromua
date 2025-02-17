@@ -1,7 +1,7 @@
 ~ "conversions.ua"
-    ~ LinearToOklab
-    ~ LinearToSrgb
-    ~ OklabToLinear
-    ~ OklabToSrgb
-    ~ SrgbToLinear
-    ~ SrgbToOklab
+  ~ LinearToOklab
+  ~ LinearToSrgb
+  ~ OklabToLinear
+  ~ OklabToSrgb
+  ~ SrgbToLinear
+  ~ SrgbToOklab
