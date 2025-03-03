@@ -1,7 +1,2 @@
-~ "conversions.ua"
-  ~ LinearToOklab
-  ~ LinearToSrgb
-  ~ OklabToLinear
-  ~ OklabToSrgb
-  ~ SrgbToLinear
-  ~ SrgbToOklab
+~ "conversions.ua" ~ GenerateConversions!
+GenerateConversions!()
