@@ -47,3 +47,10 @@ OklabToOklch ← CheckAll!⌅(
   ⍜°⊟₃⊙⊃(⌵ℂ|˜∠)
 | ⍜°⊟₃⊙(∩×⟜:⊙°˜∠)
 )
+
+# Basic conversions
+Basic ← {
+  "SrgbToLinear"
+  "OklabToLinear"
+  "OklabToOklch"
+}

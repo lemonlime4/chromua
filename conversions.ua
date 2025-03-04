@@ -1,15 +1,4 @@
-Filename ← "basic_conversions.ua"
-
-# Ensure that bindings are named `XToY`
-CheckAllBindings ↚ °{}▽⊸≡◇⍣(⋅⋅0°$"_To_"|1)
-
-# Basic conversions that are already implemented
-Basic ↚ $basic comptime(
-  &frasFilename
-  ▽⊜⍣(1 □⊙◌°$"_ ←_"|0 □"")⊸≠@\n
-  ⍚▽⊸≠@\s
-  ⟜CheckAllBindings
-)
+~ "basic_conversions.ua" ~ Basic
 
 # All conversions
 All ↚ $all ⍚/$"_To_"⧅₂≠ ◴⊂⍚°$"_To_" Basic
@@ -17,7 +6,10 @@ All ↚ $all ⍚/$"_To_"⧅₂≠ ◴⊂⍚°$"_To_" Basic
 # Composite conversions that aren't implemented yet
 Needed ↚ $needed ▽¬⊸∊ Basic All
 
-Imports ↚ $"~ \"_\" ~ _"Filename /$"_ _" Basic
+Imports ↚ (
+  /$"_ _" Basic
+  ⊂"~ \"basic_conversions.ua\" ~ "
+)
 
 # Generate implementations for conversions
 # impls $ needed basic
