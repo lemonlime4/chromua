@@ -4,6 +4,8 @@ Facilities for working with color in the [Uiua](https://uiua.org/) language.
 
 Currently, there are only conversions between color spaces.
 
+The examples are best viewed with the `--window` feature or on the pad.
+
 ## Color space conversions
 
 There is a function `XToY` for any two of the following color spaces:
