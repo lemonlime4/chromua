@@ -6,7 +6,7 @@ All ↚ $all ⍚/$"_To_"⧅₂≠ ◴⊂⍚°$"_To_" Basic
 # Composite conversions that aren't implemented yet
 Needed ↚ $needed ▽¬⊸∊ Basic All
 
-Imports ↚ (
+Imports ↚ comptime(
   /$"_ _" Basic
   ⊂"~ \"basic_conversions.ua\" ~ "
 )
