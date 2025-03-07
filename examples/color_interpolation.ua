@@ -6,6 +6,12 @@ Gradient! ← (
   ↯100
 )
 
+# red to green
+[1 0 0] [0 1 0]
+⊃($oklab Gradient!SrgbToOklab
+| $srgb Gradient!∘
+)
+
 # yellow to blue
 [1 1 0] [0 0 1]
 ⊃($oklab Gradient!SrgbToOklab
