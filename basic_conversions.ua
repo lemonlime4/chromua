@@ -16,6 +16,11 @@ CheckAll! ↚ Check‼(
   )
 )^0
 
+ToDegrees! ↚ CheckType!⌅(
+  ⍜^0(×180/π)
+| ⍜^0(×π/180)
+)
+
 # Track caller!
 SrgbToLinear ← CheckType!⌅(
   ⍜⌵(⍜-× ⊃(÷12.92|ⁿ2.4÷1.055+0.055) ⤙≥0.04045)
@@ -49,16 +54,23 @@ OklabToOklch ← CheckAll!⌅(
 )
 
 # Track caller!
+OklchToOklchd ← ToDegrees!⊣
+
+# Track caller!
 SrgbToHsv ← CheckAll!⌅(
   ⤙(∩/+∩×⟜:=⊃⊙¤⊓⊓(-⊃↻₂↻₁)0_2_4⤚÷)⟜(⤙-⊃/↧/↥)
   ↥⊸↧₀+⊸×₀⊟₃ ×60◿6+÷
 | ×¬×↥0↧1⍜(-⊙2)⌵◿6+5_3_1÷60°⊟₃≡¤
 )
 
+HsvToHsvd ← ToDegrees!⊢
+
 # Basic conversions
 Basic ← {
   "SrgbToLinear"
   "OklabToLinear"
   "OklabToOklch"
+  "OklchToOklchd"
   "SrgbToHsv"
+  "HsvToHsvd"
 }
