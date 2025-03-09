@@ -16,6 +16,7 @@ There is a function `XToY` for any two of the following color spaces:
 | `Linear` | linear sRGB |
 | `Oklab` | Oklab |
 | `Oklch` | Oklch |
+| `Hsv` | HSV-transformed sRGB |
 
 Conversions require the input array to have (a leading axis of) length 3, instead of having a trailing axis of length 3. This makes it easier to operate on color channels (and also simplifies implementations).
 

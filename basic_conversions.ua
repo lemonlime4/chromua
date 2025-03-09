@@ -48,9 +48,17 @@ OklabToOklch ← CheckAll!⌅(
 | ⍜°⊟₃⊙(∩×⟜:⊙°˜∠)
 )
 
+# Track caller!
+SrgbToHsv ← CheckAll!⌅(
+  ⤙(∩/+∩×⟜:=⊃⊙¤⊓⊓(-⊃↻₂↻₁)0_2_4⤚÷)⟜(⤙-⊃/↧/↥)
+  ↥⊸↧₀+⊸×₀⊟₃ ×60◿6+÷
+| ×¬×↥0↧1⍜(-⊙2)⌵◿6+5_3_1÷60°⊟₃≡¤
+)
+
 # Basic conversions
 Basic ← {
   "SrgbToLinear"
   "OklabToLinear"
   "OklabToOklch"
+  "SrgbToHsv"
 }
