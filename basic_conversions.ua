@@ -57,11 +57,7 @@ OklabToOklch ← CheckAll!⌅(
 OklchToOklchd ← ToDegrees!⊣
 
 # Track caller!
-SrgbToHsv ← CheckAll!⌅(
-  ⤙(∩/+∩×⟜:=⊃⊙¤⊓⊓(-⊃↻₂↻₁)0_2_4⤚÷)⟜(⤙-⊃/↧/↥)
-  ↥⊸↧₀+⊸×₀⊟₃ ×τ/6◿6+÷
-| ×¬×↥0↧1⍜(-⊙2)⌵◿6+5_3_1×6/τ°⊟₃≡¤
-)
+SrgbToHsv ← CheckAll!⍜⍉hsv
 
 HsvToHsvd ← ToDegrees!⊢
 
