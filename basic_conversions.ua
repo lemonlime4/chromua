@@ -50,7 +50,7 @@ OklabToLinear ← CheckAll!⌅(
 # Track caller!
 OklabToOklch ← CheckAll!⌅(
   ⍜°⊟₃⊙⊃(⌵ℂ|˜∠)
-| ⍜°⊟₃⊙(∩×⟜:⊙°˜∠)
+| ⍜°⊟₃⊙(∩⌞×⊙°˜∠)
 )
 
 # Track caller!
