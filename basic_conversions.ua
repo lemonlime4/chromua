@@ -59,7 +59,15 @@ OklchToOklchd ← ToDegrees!⊣
 # Track caller!
 SrgbToHsv ← CheckAll!⍜⍉hsv
 
+# Track caller!
 HsvToHsvd ← ToDegrees!⊢
+
+HsvToHsl ← CheckAll!⍜°⊟₃⊙⌅(
+  ↥⊸↧₀ ÷⤚(⊙-:)⟜↧⟜¬⊸×¬÷₂
+| ↥⊸↧₀ ×₂¬⤚÷⊸+×⊙⊸↧⊙⊸¬
+)
+
+HslToHsld ← ToDegrees!⊢
 
 # Basic conversions
 Basic ← {
@@ -69,4 +77,6 @@ Basic ← {
   "OklchToOklchd"
   "SrgbToHsv"
   "HsvToHsvd"
+  "HsvToHsl"
+  "HslToHsld"
 }
